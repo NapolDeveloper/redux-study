@@ -1,5 +1,6 @@
 import React from 'react';
 import CounterContainer from './containers/CounterContainer';
+import ProfileContainer from './containers/ProfileContainer';
 import TodoApp from './containers/TodoApp';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div>
       <CounterContainer />
       <TodoApp />
+      <ProfileContainer />
     </div>
   );
 }

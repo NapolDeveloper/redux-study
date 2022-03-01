@@ -2,10 +2,12 @@
 import { combineReducers } from 'redux';
 import counter from './counter';
 import todos from './todos';
+import profile from './profile';
 
 const rootReducer = combineReducers({
   counter,
-  todos
+  todos,
+  profile
 });
 
 export default rootReducer;
